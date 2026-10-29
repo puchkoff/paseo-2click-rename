@@ -1,0 +1,8 @@
+{
+  "id": "paseo-2click-rename",
+  "name": "Double-click rename",
+  "media": [],
+  "requirements": {
+    "paseo": ">=0.13.0"
+  }
+}
