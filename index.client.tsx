@@ -35,6 +35,10 @@ export default function contribute() {
   if (Platform.OS !== "web" || typeof document === "undefined") return () => {};
 
   const onDoubleClick = (event: any) => {
+    // The app loads this once per daemon it is installed on. A second copy would find the menu
+    // already used and send Escape, closing the dialog the first copy opened.
+    if (event.paseo2clickRename) return;
+    event.paseo2clickRename = true;
     // Keep native double-click (select a word) in text fields.
     if (event.target?.closest?.("input, textarea, [contenteditable='true']")) return;
     const target: El | null = event.target?.closest?.(TARGETS) ?? null;
