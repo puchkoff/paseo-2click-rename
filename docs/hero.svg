@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fbf7ff"/>
+      <stop offset="0.55" stop-color="#f3f6ff"/>
+      <stop offset="1" stop-color="#fff6ec"/>
+    </linearGradient>
+    <radialGradient id="glowA" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#c4b5fd" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#c4b5fd" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#fdba74" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#fdba74" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="brand" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7c3aed"/>
+      <stop offset="1" stop-color="#db2777"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#312e81" flood-opacity="0.16"/>
+    </filter>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="160%">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#312e81" flood-opacity="0.18"/>
+    </filter>
+    <symbol id="sparkles" viewBox="0 0 24 24">
+      <path d="M12 2.5l1.9 5.6 5.6 1.9-5.6 1.9L12 17.5l-1.9-5.6L4.5 10l5.6-1.9z"/>
+      <path d="M19 15l.9 2.1 2.1.9-2.1.9L19 21l-.9-2.1-2.1-.9 2.1-.9z"/>
+    </symbol>
+    <symbol id="cursor" viewBox="0 0 24 24">
+      <path d="M4 2l15 11-6.5 1.2L16 21l-3 1.4-3.5-6.8L4 19.5z" fill="#111827" stroke="#fff" stroke-width="1.4" stroke-linejoin="round"/>
+    </symbol>
+  </defs>
+  <rect width="1280" height="640" fill="url(#bg)"/>
+  <circle cx="1060" cy="120" r="300" fill="url(#glowA)"/>
+  <circle cx="880" cy="600" r="260" fill="url(#glowB)"/>
+  <circle cx="90" cy="610" r="200" fill="url(#glowA)" opacity="0.6"/>
+  <g transform="translate(80 150)">
+    <rect x="0" y="0" width="196" height="36" rx="18" fill="#ede9fe"/>
+    <use href="#sparkles" x="14" y="8" width="20" height="20" fill="#7c3aed"/>
+    <text x="42" y="24" font-size="16" fill="#6d28d9" font-weight="600" text-anchor="start" >Paseo plugin</text>
+    <text x="0" y="140" font-size="64" fill="url(#brand)" font-weight="800" text-anchor="start" letter-spacing="-1.5">Double-click</text>
+    <text x="0" y="232" font-size="22" fill="#4338ca" font-weight="400" text-anchor="start" opacity="0.85">Rename a workspace or a tab in place.</text>
+    <circle cx="9" cy="281" r="5" fill="#f59e0b"/><text x="26" y="288" font-size="19" fill="#3f3f6e" font-weight="400" text-anchor="start" >Workspaces in the sidebar</text>
+    <circle cx="9" cy="319" r="5" fill="#f59e0b"/><text x="26" y="326" font-size="19" fill="#3f3f6e" font-weight="400" text-anchor="start" >Agent tabs</text>
+    <circle cx="9" cy="357" r="5" fill="#f59e0b"/><text x="26" y="364" font-size="19" fill="#3f3f6e" font-weight="400" text-anchor="start" >Desktop app and browser</text>
+  </g>
+  <g transform="translate(680 70)" filter="url(#shadow)"><rect width="520" height="508" rx="28" fill="#ffffff"/></g>
+  <g transform="translate(680 70)">
+    <circle cx="36" cy="38" r="6" fill="#fca5a5"/><circle cx="56" cy="38" r="6" fill="#fde68a"/><circle cx="76" cy="38" r="6" fill="#a7f3d0"/>
+    <text x="260" y="44" font-size="15" fill="#6b7280" font-weight="600" text-anchor="middle" >Double-click rename</text>
+    <line x1="0" y1="68" x2="520" y2="68" stroke="#eef0f6"/>
+    <rect x="0" y="68" width="170" height="402" fill="#f8f8fc"/>
+    <path d="M0 470 L0 480 Q0 508 28 508 L170 508 L170 470 Z" fill="#f8f8fc"/>
+    <text x="20" y="96" font-size="11" fill="#9ca3af" font-weight="700" text-anchor="start" >WORKSPACES</text>
+    <circle cx="28" cy="128" r="4" fill="#c7cbe0"/>
+    <text x="42" y="133" font-size="14" fill="#374151" font-weight="400" text-anchor="start" >billing-api</text>
+    <rect x="10" y="152" width="150" height="32" rx="8" fill="#ede9fe"/>
+    <circle cx="28" cy="168" r="4" fill="#7c3aed"/>
+    <text x="42" y="173" font-size="14" fill="#4c1d95" font-weight="600" text-anchor="start" >web-app</text>
+    <circle cx="28" cy="208" r="4" fill="#c7cbe0"/>
+    <text x="42" y="213" font-size="14" fill="#374151" font-weight="400" text-anchor="start" >docs-site</text>
+    <circle cx="28" cy="248" r="4" fill="#c7cbe0"/>
+    <text x="42" y="253" font-size="14" fill="#374151" font-weight="400" text-anchor="start" >mobile-app</text>
+    <circle cx="28" cy="288" r="4" fill="#c7cbe0"/>
+    <text x="42" y="293" font-size="14" fill="#374151" font-weight="400" text-anchor="start" >infra</text>
+    <use href="#cursor" x="110" y="150" width="26" height="26"/>
+    <rect x="98" y="184" width="92" height="22" rx="11.0" fill="#fde68a"/><text x="144.0" y="199.0" font-size="12" fill="#92400e" font-weight="600" text-anchor="middle" >double-click</text>
+    <line x1="170" y1="68" x2="170" y2="508" stroke="#eef0f6"/>
+    <g filter="url(#soft)"><rect x="196" y="170" width="300" height="200" rx="18" fill="#fff" stroke="#e5e7f0"/></g>
+    <text x="220" y="206" font-size="17" fill="#111827" font-weight="700" text-anchor="start" >Rename workspace</text>
+    <text x="220" y="232" font-size="12" fill="#6b7280" font-weight="400" text-anchor="start" >Same dialog as the right-click menu</text>
+    <rect x="220" y="250" width="252" height="40" rx="10" fill="#fff" stroke="#7c3aed" stroke-width="2"/>
+    <text x="236" y="276" font-size="14" fill="#111827" font-weight="400" text-anchor="start" >web-app — checkout redesign</text>
+    <rect x="460" y="260" width="2" height="20" fill="#7c3aed"/>
+    <rect x="304" y="312" width="74" height="34" rx="10" fill="#f6f7fb"/><text x="341" y="334" font-size="13" fill="#374151" font-weight="600" text-anchor="middle" >Cancel</text>
+    <rect x="388" y="312" width="84" height="34" rx="10" fill="url(#brand)"/><text x="430" y="334" font-size="13" fill="#fff" font-weight="700" text-anchor="middle" >Rename</text>
+    <rect x="190" y="400" width="306" height="70" rx="12" fill="#f6f7fb"/>
+    <text x="210" y="428" font-size="13" fill="#374151" font-weight="400" text-anchor="start" >Works on workspaces in the sidebar</text>
+    <text x="210" y="450" font-size="13" fill="#374151" font-weight="400" text-anchor="start" >and on agent tabs</text>
+  </g>
+</svg>
