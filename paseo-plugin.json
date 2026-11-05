@@ -1,7 +1,11 @@
 {
   "id": "paseo-2click-rename",
   "name": "Double-click rename",
-  "media": [],
+  "description": "Double-click a workspace or an agent tab to rename it.",
+  "icon": "assets/icon.png",
+  "media": [
+    "assets/screenshot-rename.png"
+  ],
   "requirements": {
     "paseo": ">=0.13.0"
   }

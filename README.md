@@ -1,3 +1,5 @@
+<p align="center"><img src="assets/icon.png" width="96" alt="Double-click rename logo"></p>
+
 # Double-click rename — a Paseo plugin
 
 ![Double-click rename: Paseo plugin screen (illustration)](docs/hero.svg)
@@ -5,6 +7,8 @@
 Double-click a workspace or an agent tab to rename it.
 
 Double-click a workspace in the sidebar or an agent tab and the same Rename dialog opens as from the right-click menu. It works in the desktop app and the browser, not on mobile.
+
+![The Rename dialog, opened by double-clicking a workspace in the sidebar](assets/screenshot-rename.png)
 
 ## Install
 
